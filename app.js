@@ -19,8 +19,8 @@ class App {
 
     this.totalParticle = 13;
     this.particles = [];
-    this.minRadius = 600;
-    this.maxRadius = 900;
+    this.minRadius = 800;
+    this.maxRadius = 1500;
     window.requestAnimationFrame(this.animate.bind(this));
   }
 
